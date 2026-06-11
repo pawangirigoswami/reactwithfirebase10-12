@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form element</title>
+</head>
+<body>
+    <form action="http://localhost:2000" method="post">
+        <fieldset>
+            <legend>student enquiry form</legend>
+        <label for="name">name</label>
+        <input id="name" name="" value="" type="text" placeholder="enter your name" minlength="3" maxlength="12" ><br><br>
+         <label for="email">email</label>
+        <input id="email" name="" value="" type="email" placeholder="enter your email" ><br><br>
+         <label for="p">password</label>
+        <input id="p" name="" value="" type="password" placeholder="enter your password" ><br><br>
+         <label for="age">age</label>
+        <input id="age" name="" value="" type="number" placeholder="enter your age" ><br><br>
+         <label for="mob">mobile</label>
+        <input id="mob" name="" value="" type="tel" placeholder="enter your mobile" ><br><br>
+        <p>select a gender</p>
+        <label for="male">male</label>
+        <input id="male" type="radio" name="gender" value="male">
+        <label for="female">female</label>
+        <input id="female" type="radio" name="gender" value="female">
+        <label for="oth">other</label>
+        <input id="oth" type="radio" name="gender" value="other"><br><br>
+        <label for="">select a language</label>
+        <select name="gender" id="gender">
+            <!-- <option value="#"></option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">JAVASCRIPT</option> -->
+            <optgroup label="asia">
+                <option value="india">india</option>
+                <option value="sri lanka">sri lanka</option>
+            </optgroup>
+            <optgroup label="language">
+                 <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">JAVASCRIPT</option>
+            </optgroup>
+
+        </select><br><br>
+        <label for="">select your birhday</label>
+         <input type="date" name="" id=""><br><br>
+          <label for="">select your birhday day</label>
+         <input type="datetime-local" name="" id=""><br><br>
+         <label for="">select your birhday month</label>
+         <input type="month" name="" id=""><br><br>
+         <label for="">select your birhday week</label>
+         <input type="week" name="" id=""><br><br>
+         <label for="">select your color</label>
+         <input type="color" name="" id=""><br><br>
+         <label for="">select your image</label>
+         <input type="file" name="" id=""><br><br>
+         <label for="">search</label>
+         <input type="search" placeholder="search" name="" id=""><br><br>
+         <label for="">select your volume</label>
+         <input type="range" min="1" max="200" name="" id=""><br><br>
+         <label for="">select your birhday day</label>
+         <input type="hidden" name="" value="22222" id=""><br><br>
+           <label>
+      <input type="checkbox" name="subscribe" value="yes">
+      Subscribe to newsletter
+    </label><br><br>
+    <button type="submit">submit</button>
+    <button type="reset">reset</button>
+        </fieldset>
+    </form>
+</body>
+</html>
+
+<!-- get,post,put,delete -->
